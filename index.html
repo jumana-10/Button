@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button</title>
+    <title>Login Form</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -15,19 +15,21 @@
 <body>
     <div class="formContainer">
         <div class="form">
-            <h3>Button</h3>
+            <h3>Login Form</h3>
 
-            <div class="btn1">
-                <button>Register</button>
-            </div>
+            <form action="#">
+                <div class="userName">
+                    <input type="text" id="text" name="Username" placeholder="Username">
+                </div>
 
-            <div class="btn2">
-                <button>Submit</button>
-            </div>
+                <div class="passWord">
+                    <input type="password" id="passwors" name="password" placeholder="Password">
+                </div>
 
-            <div class="btn3">
-                <button>Follow</button>
-            </div>
+                <div class="button">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>
